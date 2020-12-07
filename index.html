@@ -1,116 +1,136 @@
 <!DOCTYPE html>
+
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hooli-pop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>hooli-PopUp</title>
-</head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <li><a href="#" class="nav--button">Mail</a></li>
+        <li><a href="#" class="nav--button">Images</a></li>
+        <li>
+          <input type="checkbox" id="toggle" />
+          <label for="toggle" class="check-button"
+            ><img src="icons/popup-button.png" alt="Menu"
+          /></label>
+          <div class="navBox">
+            <ul class="uList">
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/mars.png" alt="Mars" />
+                  <p>Mars</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/promo.png" alt="Promo" />
+                  <p>Promo</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/mic.png" alt="Mic" />
+                  <p>Mic</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/search.png" alt="Search" />
+                  <p>Search</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/news.png" alt="News" />
+                  <p>News</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/contacts.png" alt="Contacts" />
+                  <p>Contacts</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/videos.png" alt="Videos" />
+                  <p>Videos</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/documents.png" alt="Documents" />
+                  <p>Documents</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/tanslation.png" alt="Translator" />
+                  <p>Translate</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/photos.png" alt="Photos" />
+                  <p>Photos</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/apps.png" alt="Apps" />
+                  <p>Apps</p>
+                </a>
+              </li>
+              <li class="Links">
+                <a href="#">
+                  <img src="icons/mail.png" alt="Mail" />
+                  <p>Mail</p>
+                </a>
+              </li>
 
-<body>
-    <header>
-        <nav class="header-menu">
-            <ul class="menu__list">
-                <li ><a class="link" href="#">Mail</a></li>
-                <li ><a class="link" href="#">Images</a></li>
-                <div class="nav">
-                    <label for="toggle"><a><img src="icons/popup-button.png" alt="menu"></a>
-                        <input type="checkbox" id="toggle">
-                        <div class="menu" ">
-                        <ul class=" greed">
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/calendar.png" alt="Calendar">
-                                    <p>Calendar</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/mail.png" alt="Mail">
-                                    <p>Mail</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/news.png" alt="News">
-                                    <p>News</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/maps.png" alt="Maps">
-                                    <p>Maps</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/files.png" alt="Files">
-                                    <p>Files</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/contacts.png" alt="Contacts">
-                                    <p>Contacts</p>
-                                </a>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/tanslation.png" alt="Translate">
-                                    <p>Translate</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/videos.png" alt="Video">
-                                    <p>Video</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/search.png" alt="Search">
-                                    <p>Search</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/photos.png" alt="Photo">
-                                    <p>Photo</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/apps.png" alt="Apps">
-                                    <p>Apps</p>
-                                </a>
-                            </li>
-                            <li class="popup__link"><a href="#">
-                                    <img class="icons" src="icons/documents.png" alt="Document">
-                                    <p>Document</p>
-                                </a>
-                            </li>
-                            <label class="i" for="t"><a></a>
-                                <div class="more">more</div>
-                                <input type="checkbox" id="t">
-                                <div class="sub">
-                                    <ul class="greed">
-                                        <li class="popup__link"><a href="#">
-                                                <img class="icons" src="icons/mic.png" alt="mic">
-                                                <p>Mic</p>
-                                            </a>
-                                        </li>
-                                        <li class="popup__link"><a href="#">
-                                                <img class="icons" src="icons/classroom.png" alt="classroom">
-                                                <p>Classroom</p>
-                                            </a>
-                                        </li>
-                                        <li class="popup__link"><a href="#">
-                                                <img class="icons" src="icons/blogs.png" alt="Blogs">
-                                                <p>Blogs</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </label>
+              <li class="Btn">
+                <input type="checkbox" id="toggle1" />
+                <label for="toggle1" class="more-button">More</label>
+                <ul class="more">
+                  <li class="Links">
+                    <a href="#">
+                      <img src="icons/search.png" alt="Search" />
+                      <p>Search</p>
+                    </a>
+                  </li>
+                  <li class="Links">
+                    <a href="#">
+                      <img src="icons/tanslation.png" alt="Translation" />
+                      <p>Translation</p>
+                    </a>
+                  </li>
+                  <li class="Links">
+                    <a href="#">
+                      <img src="icons/videos.png" alt="Videos" />
+                      <p>Videos</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
-            </label>
-            </div>
-            </div>
-            <li ><a class="link " href="#"><img class="bell" src="icons/bell.png" alt=""></a></li>
-            <li ><a class="me link" href="https://github.com/4zorbin"></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main></main>
-    <footer></footer>
-</body>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="nav--button"
+            ><img src="icons/bell.png" class="bell" alt="Bell"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/4zorbin/popup" class="nav--button"
+            ><img src="img/userpic.jpeg" class="mypage" alt="myPage"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
